@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <section id="home">
+        <h1>Welcome to Our Learning Platform</h1>
+        <p>Learn anytime, anywhere with our remote learning resources.</p>
+        <button id="learn-more">Learn More</button>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="course-list">
+            <div class="course">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlwXMKsG4_wlmlsOLkL7juxmJiw86IF8u7pw&s" alt="Course 1">
+                <h3>HTML Basics</h3>
+                <p>Start your web development journey with HTML.</p>
+            </div>
+            <div class="course">
+                <img src="https://delta-dev-software.fr/wp-content/uploads/2024/05/CSS-Logo.png" alt="Course 2">
+                <h3>CSS Styling</h3>
+                <p>Learn how to style your web pages effectively.</p>
+            </div>
+            <div class="course">
+                <img src="https://banner2.cleanpng.com/20190129/vxi/kisspng-javascript-web-applications-scalable-vector-graphi-1713908481051.webp" alt="Course 3">
+                <h3>JavaScript Essentials</h3>
+                <p>Master the basics of JavaScript programming.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We provide high-quality educational content for students and professionals looking to enhance their skills online.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+<script src="main.js"></script>
+</html>
